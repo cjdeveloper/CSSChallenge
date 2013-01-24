@@ -1,0 +1,339 @@
+body{
+	background: url("../img/header.jpg") repeat-x;
+	background-color: gray;
+}
+
+.wrapper_1018{
+	width: 1018px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+}
+
+.wrapper_950{
+	width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+
+ h1, h2{
+ 	font-family: 'Arapey', serif;
+ 	font-weight: normal;
+ }
+
+ h1{
+ 	font-size: 32px;
+ }
+
+/******************
+=header               
+******************/ 
+
+header{
+	background: url("../img/header.jpg") repeat-x;*/
+}
+
+header img{
+	float: left;
+	padding-top: 35px;
+	margin-bottom: 33px;
+}
+
+header p{
+	float: right;
+	padding-top: 35px;
+	color: white;
+	font-style: italic;
+}
+
+header span{
+	float: right;
+}
+
+/*#header-content{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header-content img{
+	float: left;
+}
+
+#header-content p{
+	float: right;
+	color: white;
+}*/
+	/******************
+	=nav               
+	******************/ 
+
+	nav{
+		text-align: center;
+		clear: left;
+		background: url("../img/nav.jpg");
+		height: 70px;
+		border-radius: 10px 10px 0 0;
+	}
+
+	nav ul{ padding: 22px;
+
+	}
+	nav li{
+		color: white;
+		text-transform: uppercase;
+		display: inline;
+		padding: 22px 48px 29px;
+		border-right: solid white 1px;
+	}
+
+	nav li a{
+		color: white;
+		text-decoration: none;
+	}
+
+	nav li:last-child{
+		border-right: none;
+	}
+
+
+
+/******************
+=slide               
+******************/ 
+
+.slide-bg{
+	background: url("../img/slide02.jpg") no-repeat;
+	height: 448px;
+	width: 950px;
+	margin:34px;
+
+}
+
+/*#slide-content{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}*/
+
+#slide-content p{
+	float: right;
+	color: white;
+	margin-top: 150px;
+	font-size: 36px;
+	margin-right: 25px;
+	line-height: 25px;
+}
+
+#slide-content span{
+	float: right;
+}
+
+/******************
+=banner               
+******************/ 
+
+.col_310{
+	float: left;
+	width: 310px;
+}	 
+
+.banner-bg{
+	background: url("../img/banner-tail.gif") repeat-x;
+	height: 250px;
+	width: 950px;
+	margin-right: auto;
+	margin-left: auto;
+	color: white;
+}
+
+.banner-content{
+	width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.banner-bg img{
+	float: left;
+	margin: 30px 5px 25px 15px;
+}
+
+.banner-bg h1{
+	float: right;
+	width: 90px;
+	margin-right: 112px;
+	margin-top: 25px;
+	margin-bottom: 20px
+}
+
+.banner-bg p{
+	float: right;
+	width: 200px;
+	margin-top: 0px;
+}
+
+.banner-bg a{
+	float: left;
+	clear: left;
+}
+
+/******************
+=button               
+******************/ 
+
+.button{
+	background-color: gray;
+	width: 86px;
+	height: 35px;
+	margin-left: 15px;
+} 
+
+.button p{
+	text-align: center;
+	width: 86px;
+	color: black; 
+	margin: 8px auto;
+}
+
+/******************
+=design-ideas               
+******************/ 
+
+.col_630{
+	width: 630px;
+	float: left;
+}
+
+#design-ideas p{
+	float: right;
+	width: 300px;
+}
+
+#design-ideas h1{
+	float: left;
+	margin-left: 30px;
+	margin-top: 34px;
+}
+
+#design-ideas img{
+	float: left;
+	margin: 40px 0px;
+}
+
+#design-ideas article{
+	margin-right: 80px;
+}
+
+/******************
+=posts               
+******************/ 
+.col_280{
+	float: left;
+	width: 280px;
+}	 
+
+#posts{
+	margin-right: 60px;
+}
+
+/******************
+=design               
+******************/ 
+
+.black-button{
+	background-color: black;
+	width: 86px;
+	height: 35px; 
+	position: relative;
+	margin-top: 20px;
+}
+
+.black-button a{
+	position: absolute;
+	color: white; 
+	float: left;
+	top: 7px;
+	right: 22px;
+	text-decoration: none;
+}
+
+/******************
+=aside               
+******************/ 
+
+aside{
+	width: 290px;
+	float: right;
+}
+
+aside a {
+	text-decoration: none;
+	font-style: italic;
+}
+
+aside h1{
+	float: left;
+	color: white;
+	margin-top: 15px;
+	padding-left: 22px;
+}
+
+aside h2{
+	margin-right: 25px;
+}
+
+#aside-h1-container{
+	background: url("../img/nav.jpg") repeat-x;
+	width: 290px;
+	height: 60px;
+	margin-bottom: 20px;
+	margin-top: 33px;
+}
+
+aside h2{
+	float: right;
+}
+
+aside p{
+	clear: both;
+}
+
+.date-container{
+	background: url("../img/date-bg.png") no-repeat;
+	height: 48px;
+	width: 38px;
+	float: left;
+}
+
+.date-container p{
+text-align: center;
+line-height: 12px;
+}
+
+/*.date-container p:first-child{
+	margin-left: 10px;
+}*/
+
+/******************
+=footer               
+******************/ 
+
+footer{
+	background-color: gray;
+	clear: both;
+}
+
+footer p{
+	float: right;
+}
